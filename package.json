@@ -1,0 +1,10 @@
+{
+  "name": "deptend-sarif-scratch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scratch repo validating DepTend CLI SARIF output against GitHub code scanning (issue #34 round-trip). Deleted after the run.",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "minimist": "1.2.0"
+  }
+}
