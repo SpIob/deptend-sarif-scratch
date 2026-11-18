@@ -34,6 +34,10 @@ jobs:
           cache: pnpm
           cache-dependency-path: deptend/pnpm-lock.yaml
 
+      - name: Install workspace deps
+        run: pnpm install --frozen-lockfile
+        working-directory: deptend
+
       - name: Build CLI from source
         run: pnpm --filter @deptend/cli build
         working-directory: deptend
